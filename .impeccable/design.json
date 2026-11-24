@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T09:41:37Z",
+  "title": "Design System: Neon Hallows Arena",
+  "extensions": {
+    "colorMeta": {
+      "orange": {
+        "role": "primary",
+        "displayName": "Pumpkin Orange",
+        "tonalRamp": ["oklch(15% 0.065 49.1)", "oklch(25% 0.103 49.1)", "oklch(37% 0.150 49.1)", "oklch(49% 0.187 49.1)", "oklch(61% 0.187 49.1)", "oklch(73% 0.140 49.1)", "oklch(85% 0.090 49.1)", "oklch(95% 0.041 49.1)"]
+      },
+      "orange-hover": {
+        "role": "primary",
+        "displayName": "Pumpkin Orange Hover",
+        "tonalRamp": ["oklch(15% 0.049 56.3)", "oklch(25% 0.076 56.3)", "oklch(37% 0.111 56.3)", "oklch(49% 0.139 56.3)", "oklch(61% 0.139 56.3)", "oklch(73% 0.104 56.3)", "oklch(85% 0.067 56.3)", "oklch(95% 0.031 56.3)"]
+      },
+      "action-ink": {
+        "role": "primary",
+        "displayName": "Plum Action Text",
+        "tonalRamp": ["oklch(15% 0.016 321.4)", "oklch(25% 0.025 321.4)", "oklch(37% 0.036 321.4)", "oklch(49% 0.045 321.4)", "oklch(61% 0.045 321.4)", "oklch(73% 0.034 321.4)", "oklch(85% 0.022 321.4)", "oklch(95% 0.010 321.4)"]
+      },
+      "cyan": {
+        "role": "secondary",
+        "displayName": "Electric Cyan",
+        "tonalRamp": ["oklch(15% 0.052 202.9)", "oklch(25% 0.081 202.9)", "oklch(37% 0.119 202.9)", "oklch(49% 0.148 202.9)", "oklch(61% 0.148 202.9)", "oklch(73% 0.111 202.9)", "oklch(85% 0.071 202.9)", "oklch(95% 0.033 202.9)"]
+      },
+      "violet": {
+        "role": "tertiary",
+        "displayName": "Electric Violet",
+        "tonalRamp": ["oklch(15% 0.081 303.9)", "oklch(25% 0.128 303.9)", "oklch(37% 0.186 303.9)", "oklch(49% 0.233 303.9)", "oklch(61% 0.233 303.9)", "oklch(73% 0.174 303.9)", "oklch(85% 0.112 303.9)", "oklch(95% 0.051 303.9)"]
+      },
+      "green": {
+        "role": "tertiary",
+        "displayName": "Neon Green",
+        "tonalRamp": ["oklch(15% 0.077 151.2)", "oklch(25% 0.121 151.2)", "oklch(37% 0.177 151.2)", "oklch(49% 0.221 151.2)", "oklch(61% 0.221 151.2)", "oklch(73% 0.166 151.2)", "oklch(85% 0.106 151.2)", "oklch(95% 0.049 151.2)"]
+      },
+      "gold": {
+        "role": "tertiary",
+        "displayName": "Candle Gold",
+        "tonalRamp": ["oklch(15% 0.038 78.1)", "oklch(25% 0.060 78.1)", "oklch(37% 0.087 78.1)", "oklch(49% 0.108 78.1)", "oklch(61% 0.108 78.1)", "oklch(73% 0.081 78.1)", "oklch(85% 0.052 78.1)", "oklch(95% 0.024 78.1)"]
+      },
+      "red": {
+        "role": "tertiary",
+        "displayName": "Boss Meter Coral",
+        "tonalRamp": ["oklch(15% 0.055 17.3)", "oklch(25% 0.086 17.3)", "oklch(37% 0.126 17.3)", "oklch(49% 0.157 17.3)", "oklch(61% 0.157 17.3)", "oklch(73% 0.118 17.3)", "oklch(85% 0.075 17.3)", "oklch(95% 0.035 17.3)"]
+      },
+      "costume-ghost": {
+        "role": "tertiary",
+        "displayName": "Ghost Lavender",
+        "tonalRamp": ["oklch(15% 0.057 301.6)", "oklch(25% 0.089 301.6)", "oklch(37% 0.129 301.6)", "oklch(49% 0.162 301.6)", "oklch(61% 0.162 301.6)", "oklch(73% 0.121 301.6)", "oklch(85% 0.078 301.6)", "oklch(95% 0.036 301.6)"]
+      },
+      "costume-vampire": {
+        "role": "tertiary",
+        "displayName": "Vampire Pink",
+        "tonalRamp": ["oklch(15% 0.061 5.1)", "oklch(25% 0.096 5.1)", "oklch(37% 0.139 5.1)", "oklch(49% 0.174 5.1)", "oklch(61% 0.174 5.1)", "oklch(73% 0.131 5.1)", "oklch(85% 0.084 5.1)", "oklch(95% 0.038 5.1)"]
+      },
+      "costume-witch": {
+        "role": "tertiary",
+        "displayName": "Witch Mint",
+        "tonalRamp": ["oklch(15% 0.058 154.4)", "oklch(25% 0.091 154.4)", "oklch(37% 0.132 154.4)", "oklch(49% 0.165 154.4)", "oklch(61% 0.165 154.4)", "oklch(73% 0.124 154.4)", "oklch(85% 0.079 154.4)", "oklch(95% 0.036 154.4)"]
+      },
+      "costume-skeleton": {
+        "role": "tertiary",
+        "displayName": "Skeleton Bone",
+        "tonalRamp": ["oklch(15% 0.017 88.3)", "oklch(25% 0.026 88.3)", "oklch(37% 0.038 88.3)", "oklch(49% 0.047 88.3)", "oklch(61% 0.047 88.3)", "oklch(73% 0.035 88.3)", "oklch(85% 0.023 88.3)", "oklch(95% 0.010 88.3)"]
+      },
+      "costume-zombie": {
+        "role": "tertiary",
+        "displayName": "Zombie Lime",
+        "tonalRamp": ["oklch(15% 0.055 122.3)", "oklch(25% 0.086 122.3)", "oklch(37% 0.125 122.3)", "oklch(49% 0.156 122.3)", "oklch(61% 0.156 122.3)", "oklch(73% 0.117 122.3)", "oklch(85% 0.075 122.3)", "oklch(95% 0.034 122.3)"]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Violet Black",
+        "tonalRamp": ["oklch(15% 0.015 297.8)", "oklch(25% 0.023 297.8)", "oklch(37% 0.033 297.8)", "oklch(49% 0.042 297.8)", "oklch(61% 0.042 297.8)", "oklch(73% 0.031 297.8)", "oklch(85% 0.020 297.8)", "oklch(95% 0.009 297.8)"]
+      },
+      "arena": {
+        "role": "neutral",
+        "displayName": "Arena Black",
+        "tonalRamp": ["oklch(15% 0.022 302.8)", "oklch(25% 0.034 302.8)", "oklch(37% 0.050 302.8)", "oklch(49% 0.062 302.8)", "oklch(61% 0.062 302.8)", "oklch(73% 0.046 302.8)", "oklch(85% 0.030 302.8)", "oklch(95% 0.014 302.8)"]
+      },
+      "arena-floor": {
+        "role": "neutral",
+        "displayName": "Violet Arena Floor",
+        "tonalRamp": ["oklch(15% 0.019 301.4)", "oklch(25% 0.030 301.4)", "oklch(37% 0.044 301.4)", "oklch(49% 0.055 301.4)", "oklch(61% 0.055 301.4)", "oklch(73% 0.041 301.4)", "oklch(85% 0.027 301.4)", "oklch(95% 0.012 301.4)"]
+      },
+      "arena-grid": {
+        "role": "neutral",
+        "displayName": "Violet Grid",
+        "tonalRamp": ["oklch(15% 0.022 306.7)", "oklch(25% 0.034 306.7)", "oklch(37% 0.050 306.7)", "oklch(49% 0.062 306.7)", "oklch(61% 0.062 306.7)", "oklch(73% 0.047 306.7)", "oklch(85% 0.030 306.7)", "oklch(95% 0.014 306.7)"]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Plum Panel",
+        "tonalRamp": ["oklch(15% 0.014 298.7)", "oklch(25% 0.022 298.7)", "oklch(37% 0.032 298.7)", "oklch(49% 0.040 298.7)", "oklch(61% 0.040 298.7)", "oklch(73% 0.030 298.7)", "oklch(85% 0.019 298.7)", "oklch(95% 0.009 298.7)"]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Plum Panel Hover",
+        "tonalRamp": ["oklch(15% 0.019 306.6)", "oklch(25% 0.029 306.6)", "oklch(37% 0.043 306.6)", "oklch(49% 0.053 306.6)", "oklch(61% 0.053 306.6)", "oklch(73% 0.040 306.6)", "oklch(85% 0.026 306.6)", "oklch(95% 0.012 306.6)"]
+      },
+      "edge": {
+        "role": "neutral",
+        "displayName": "Plum Rule",
+        "tonalRamp": ["oklch(15% 0.025 309.3)", "oklch(25% 0.039 309.3)", "oklch(37% 0.056 309.3)", "oklch(49% 0.070 309.3)", "oklch(61% 0.070 309.3)", "oklch(73% 0.053 309.3)", "oklch(85% 0.034 309.3)", "oklch(95% 0.015 309.3)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Lilac",
+        "tonalRamp": ["oklch(15% 0.018 308.9)", "oklch(25% 0.028 308.9)", "oklch(37% 0.041 308.9)", "oklch(49% 0.052 308.9)", "oklch(61% 0.052 308.9)", "oklch(73% 0.039 308.9)", "oklch(85% 0.025 308.9)", "oklch(95% 0.011 308.9)"]
+      },
+      "light": {
+        "role": "neutral",
+        "displayName": "Bone White",
+        "tonalRamp": ["oklch(15% 0.008 74.1)", "oklch(25% 0.012 74.1)", "oklch(37% 0.018 74.1)", "oklch(49% 0.022 74.1)", "oklch(61% 0.022 74.1)", "oklch(73% 0.016 74.1)", "oklch(85% 0.011 74.1)", "oklch(95% 0.005 74.1)"]
+      },
+      "readout": {
+        "role": "neutral",
+        "displayName": "Translucent HUD Fill",
+        "tonalRamp": ["oklch(15% 0.016 294.8)", "oklch(25% 0.026 294.8)", "oklch(37% 0.038 294.8)", "oklch(49% 0.047 294.8)", "oklch(61% 0.047 294.8)", "oklch(73% 0.035 294.8)", "oklch(85% 0.023 294.8)", "oklch(95% 0.010 294.8)"]
+      },
+      "readout-edge": {
+        "role": "neutral",
+        "displayName": "Translucent HUD Rule",
+        "tonalRamp": ["oklch(15% 0.025 309.3)", "oklch(25% 0.039 309.3)", "oklch(37% 0.056 309.3)", "oklch(49% 0.070 309.3)", "oklch(61% 0.070 309.3)", "oklch(73% 0.053 309.3)", "oklch(85% 0.034 309.3)", "oklch(95% 0.015 309.3)"]
+      },
+      "meter-track": {
+        "role": "neutral",
+        "displayName": "Plum Meter Track",
+        "tonalRamp": ["oklch(15% 0.020 307.8)", "oklch(25% 0.031 307.8)", "oklch(37% 0.045 307.8)", "oklch(49% 0.057 307.8)", "oklch(61% 0.057 307.8)", "oklch(73% 0.042 307.8)", "oklch(85% 0.027 307.8)", "oklch(95% 0.012 307.8)"]
+      },
+      "veil": {
+        "role": "neutral",
+        "displayName": "Arena Veil",
+        "tonalRamp": ["oklch(15% 0.022 302.8)", "oklch(25% 0.034 302.8)", "oklch(37% 0.050 302.8)", "oklch(49% 0.062 302.8)", "oklch(61% 0.062 302.8)", "oklch(73% 0.046 302.8)", "oklch(85% 0.030 302.8)", "oklch(95% 0.014 302.8)"]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Plum Upgrade Card",
+        "tonalRamp": ["oklch(15% 0.018 309.3)", "oklch(25% 0.029 309.3)", "oklch(37% 0.042 309.3)", "oklch(49% 0.053 309.3)", "oklch(61% 0.053 309.3)", "oklch(73% 0.039 309.3)", "oklch(85% 0.025 309.3)", "oklch(95% 0.012 309.3)"]
+      },
+      "card-hover": {
+        "role": "neutral",
+        "displayName": "Plum Upgrade Card Hover",
+        "tonalRamp": ["oklch(15% 0.023 309.2)", "oklch(25% 0.036 309.2)", "oklch(37% 0.053 309.2)", "oklch(49% 0.066 309.2)", "oklch(61% 0.066 309.2)", "oklch(73% 0.050 309.2)", "oklch(85% 0.032 309.2)", "oklch(95% 0.015 309.2)"]
+      },
+      "card-edge": {
+        "role": "neutral",
+        "displayName": "Muted Gold Rule",
+        "tonalRamp": ["oklch(15% 0.026 74.8)", "oklch(25% 0.041 74.8)", "oklch(37% 0.060 74.8)", "oklch(49% 0.075 74.8)", "oklch(61% 0.075 74.8)", "oklch(73% 0.056 74.8)", "oklch(85% 0.036 74.8)", "oklch(95% 0.017 74.8)"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Neon and Hallows on the title screen."
+      },
+      "display-accent": {
+        "displayName": "Display Accent",
+        "purpose": "The tracked green Arena line."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Pause, upgrade, and results headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Primary actions and result values."
+      },
+      "title-small": {
+        "displayName": "Small Title",
+        "purpose": "Quiet actions and boss names."
+      },
+      "card-title": {
+        "displayName": "Card Title",
+        "purpose": "Upgrade names with a tighter line height."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Title screen introduction."
+      },
+      "body-small": {
+        "displayName": "Small Body",
+        "purpose": "Wardrobe notes, dialog instructions, and upgrade effects."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "HUD labels, shortcut legend, and stack counts."
+      },
+      "score": {
+        "displayName": "Score",
+        "purpose": "Final points total."
+      }
+    },
+    "shadows": [
+      {
+        "name": "title-ink",
+        "value": "0 4px 24px #0a0018",
+        "purpose": "Text shadow behind the title over the Canvas."
+      },
+      {
+        "name": "intro-ink",
+        "value": "0 2px 12px #0a0018",
+        "purpose": "Text shadow behind the title screen introduction."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(.22, 1, .36, 1)",
+        "purpose": "Easing for action buttons and upgrade cards."
+      },
+      {
+        "name": "color-transition",
+        "value": "240ms",
+        "purpose": "Background and border changes on buttons and upgrade cards."
+      },
+      {
+        "name": "press-transition",
+        "value": "280ms",
+        "purpose": "Eases the 1px downward press on enabled actions."
+      },
+      {
+        "name": "costume-pickup-ring",
+        "value": "550ms",
+        "purpose": "Expands and fades a Canvas ring in the equipped costume color."
+      },
+      {
+        "name": "costume-pickup-notice",
+        "value": "2.6s",
+        "purpose": "Shows the equipped costume name and ability detail."
+      },
+      {
+        "name": "dash-trail",
+        "value": "240ms",
+        "purpose": "Fades the cyan or Ghost-tinted Canvas trail after a dash."
+      },
+      {
+        "name": "boss-warning",
+        "value": "2s",
+        "purpose": "Shows the red field wash and boss warning before the boss spawns."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Disables CSS transitions, freezes title ambience and standard enemy poses, removes drop-ring pulsing, and reduces effect opacity."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "Arena max-width",
+        "value": "880px"
+      },
+      {
+        "name": "Compact arena max-width",
+        "value": "735px"
+      },
+      {
+        "name": "Viewport max-width",
+        "value": "640px"
+      },
+      {
+        "name": "Desktop max-height (width ≥ 641px)",
+        "value": "660px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Enters, resumes, or restarts a run.",
+      "html": "<button class=\"ds-enter\" type=\"button\">Enter the arena <kbd class=\"ds-enter-key\" aria-hidden=\"true\">Enter</kbd></button>",
+      "css": ".ds-enter { display: inline-flex; align-items: center; justify-content: center; gap: 8px; cursor: pointer; border: 1px solid var(--orange, #ff7a18); border-radius: 0; background: var(--orange, #ff7a18); color: #211024; padding: 8px 12px; font: 600 1rem/1.5rem \"Avenir Next\", system-ui, sans-serif; transition: background-color 240ms var(--ease, cubic-bezier(.22, 1, .36, 1)), transform 280ms var(--ease, cubic-bezier(.22, 1, .36, 1)), border-color 240ms var(--ease, cubic-bezier(.22, 1, .36, 1)); }\n.ds-enter:hover { background: #ffa35d; border-color: #ffa35d; }\n.ds-enter:focus-visible { outline: 2px solid var(--cyan, #00f0ff); outline-offset: 3px; }\n.ds-enter:active { transform: translateY(1px); }\n.ds-enter-key { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; border: 1px solid var(--edge, #4b355c); min-width: 20px; padding: 2px 4px; font: inherit; color: inherit; font-variant-numeric: tabular-nums; }\n.ds-enter-key { border-color: #66371e; }\n@media (prefers-reduced-motion: reduce) { .ds-enter { transition: none; } }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Toggles sound or returns to the title screen.",
+      "html": "<button class=\"ds-sound\" type=\"button\" aria-label=\"Mute sound\" aria-keyshortcuts=\"M\">Sound on <kbd class=\"ds-sound-key\" aria-hidden=\"true\">M</kbd></button>",
+      "css": ".ds-sound { display: inline-flex; align-items: center; justify-content: center; gap: 8px; cursor: pointer; border: 1px solid var(--edge, #4b355c); border-radius: 0; background: var(--panel, #171024); color: var(--light, #fff4e6); padding: 8px 12px; font: 600 .875rem/1.25rem \"Avenir Next\", system-ui, sans-serif; transition: background-color 240ms var(--ease, cubic-bezier(.22, 1, .36, 1)), transform 280ms var(--ease, cubic-bezier(.22, 1, .36, 1)), border-color 240ms var(--ease, cubic-bezier(.22, 1, .36, 1)); }\n.ds-sound:hover { background: var(--raised, #241631); border-color: var(--muted, #bba9cb); }\n.ds-sound:focus-visible { outline: 2px solid var(--cyan, #00f0ff); outline-offset: 3px; }\n.ds-sound:active { transform: translateY(1px); }\n.ds-sound-key { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; border: 1px solid var(--edge, #4b355c); min-width: 20px; padding: 2px 4px; font: inherit; color: inherit; font-variant-numeric: tabular-nums; }\n.ds-sound-key { color: var(--muted, #bba9cb); font-size: .75rem; }\n@media (prefers-reduced-motion: reduce) { .ds-sound { transition: none; } }"
+    },
+    {
+      "name": "Control Keycap",
+      "kind": "custom",
+      "refersTo": "keycap",
+      "description": "Marks a keyboard or mouse input in the control legend.",
+      "html": "<span class=\"ds-legend-preview\"><kbd class=\"ds-legend-key\">Space</kbd> Dash</span>",
+      "css": ".ds-legend-preview { display: inline-flex; align-items: center; gap: 8px; padding: 4px; background: var(--ground, #10091d); color: var(--muted, #bba9cb); font: 600 .75rem/1rem \"Avenir Next\", system-ui, sans-serif; }\n.ds-legend-key { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; border: 1px solid var(--edge, #4b355c); min-width: 20px; padding: 2px 4px; font: inherit; color: inherit; font-variant-numeric: tabular-nums; }\n.ds-legend-key { color: var(--light, #fff4e6); }"
+    },
+    {
+      "name": "Health Readout",
+      "kind": "custom",
+      "refersTo": "readout",
+      "description": "Pairs current and maximum HP with an orange fill.",
+      "html": "<div class=\"ds-hp\">\n          <div class=\"ds-hp-row\"><span class=\"ds-hp-label\">HP</span><strong>72 / 100</strong></div>\n          <div class=\"ds-hp-meter\" aria-hidden=\"true\"><span class=\"ds-hp-fill\" style=\"--ds-meter: .72\"></span></div>\n        </div>",
+      "css": ".ds-hp { box-sizing: border-box; background: #100920ed; border: 1px solid #4b355cb8; padding: 8px; min-width: 0; color: var(--light, #fff4e6); font: 600 .75rem/1rem \"Avenir Next\", system-ui, sans-serif; font-variant-numeric: tabular-nums; width: clamp(90px, 18cqw, 168px); }\n    .ds-hp-label { color: var(--muted, #bba9cb); }\n    .ds-hp strong { font-weight: 600; }\n    @media (max-width: 640px) { .ds-hp { padding: 2px 4px; } }\n\n    .ds-hp-meter { height: 4px; background: #352543; margin-top: 4px; overflow: hidden; }\n    .ds-hp-fill { display: block; width: 100%; height: 100%; background: var(--orange, #ff7a18); transform-origin: left; transform: scaleX(var(--ds-meter, 1)); }\n.ds-hp-row { display: flex; justify-content: space-between; gap: 8px; }"
+    },
+    {
+      "name": "XP Readout",
+      "kind": "custom",
+      "refersTo": "readout",
+      "description": "Centers the level and progress toward the next upgrade.",
+      "html": "<div class=\"ds-xp\">\n          <div class=\"ds-xp-row\"><strong>Level 1</strong><span class=\"ds-xp-label\">5 / 8 XP</span></div>\n          <div class=\"ds-xp-meter\" aria-hidden=\"true\"><span class=\"ds-xp-fill\" style=\"--ds-meter: .625\"></span></div>\n        </div>",
+      "css": ".ds-xp { box-sizing: border-box; background: #100920ed; border: 1px solid #4b355cb8; padding: 8px; min-width: 0; color: var(--light, #fff4e6); font: 600 .75rem/1rem \"Avenir Next\", system-ui, sans-serif; font-variant-numeric: tabular-nums;  }\n    .ds-xp-label { color: var(--muted, #bba9cb); }\n    .ds-xp strong { font-weight: 600; }\n    @media (max-width: 640px) { .ds-xp { padding: 2px 4px; } }\n\n    .ds-xp-meter { height: 4px; background: #352543; margin-top: 4px; overflow: hidden; }\n    .ds-xp-fill { display: block; width: 100%; height: 100%; background: var(--gold, #ffcf83); transform-origin: left; transform: scaleX(var(--ds-meter, 1)); }\n.ds-xp-row { display: flex; justify-content: space-between; gap: 8px; }"
+    },
+    {
+      "name": "Dash Readout",
+      "kind": "custom",
+      "refersTo": "readout",
+      "description": "Uses a gold glyph and cyan meter to show dash readiness.",
+      "html": "<div class=\"ds-dash\">\n          <div class=\"ds-dash-row\"><svg class=\"ds-dash-icon\" viewBox=\"0 0 40 40\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"24,5 4,19 21,19 13,35 36,17 20,17\" fill=\"#4a2d42\" stroke=\"#ffcf83\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/></svg><strong>Dash ready</strong></div>\n          <div class=\"ds-dash-meter\" aria-hidden=\"true\"><span class=\"ds-dash-fill\"></span></div>\n        </div>",
+      "css": ".ds-dash { box-sizing: border-box; background: #100920ed; border: 1px solid #4b355cb8; padding: 8px; min-width: 0; color: var(--light, #fff4e6); font: 600 .75rem/1rem \"Avenir Next\", system-ui, sans-serif; font-variant-numeric: tabular-nums; width: fit-content; min-width: 92px; }\n.ds-dash-label { color: var(--muted, #bba9cb); }\n.ds-dash strong { font-weight: 600; }\n@media (max-width: 640px) { .ds-dash { padding: 2px 4px; } }\n\n.ds-dash-meter { height: 4px; background: #352543; margin-top: 4px; overflow: hidden; }\n.ds-dash-fill { display: block; width: 100%; height: 100%; background: var(--cyan, #00f0ff); transform-origin: left; transform: scaleX(var(--ds-meter, 1)); }\n\n.ds-dash-row { display: flex; align-items: center; gap: 4px; white-space: nowrap; }\n.ds-dash-icon { width: 16px; height: 16px; }\n@media (max-width: 640px) { .ds-dash { min-width: 68px; } .ds-dash-icon { width: 12px; height: 12px; } }"
+    },
+    {
+      "name": "Costume Readout",
+      "kind": "custom",
+      "refersTo": "readout",
+      "description": "Shows the equipped costume as a silhouette and tinted name.",
+      "html": "<div class=\"ds-gear\">\n          <svg class=\"ds-gear-icon\" viewBox=\"-1.163 -1.163 2.326 2.326\" aria-hidden=\"true\" focusable=\"false\">\n  <path d=\"M-.12 -.58 -.14 -.87 .19 -.94 .23 -.77 .06 -.65Z\" fill=\"#39ff88\" stroke=\"#160d26\" stroke-width=\".09\" stroke-linejoin=\"round\"/>\n  <path d=\"M-.87 -.29 -.58 -.63 -.28 -.66 -.04 -.58 .22 -.68 .59 -.61 .87 -.3 .91 .15 .73 .51 .28 .75 .02 .7 -.3 .75 -.73 .54 -.91 .2Z\" fill=\"#ff7a18\" stroke=\"#160d26\" stroke-width=\".09\" stroke-linejoin=\"round\"/>\n  <path d=\"M-.43 -.52 -.64 -.27 -.67 .22 -.47 .52 -.69 .43 -.84 .16 -.8 -.28Z\" fill=\"#ffb258\"/>\n  <path d=\"M.53 -.54 .81 -.26 .85 .14 .67 .47 .29 .68 .53 .36 .64 .035Z\" fill=\"#bc3d2e\"/>\n  <path d=\"M.1296 -.118 .5184 -.3196 .4176 -.0172 .2304 .0116Z M-.1296 -.118 -.5184 -.3196 -.4176 -.0172 -.2304 .0116Z M0 -.055 -.11 .11 .1 .075Z M-.51 .14 -.2 .24 -.15 .16 .04 .18 .1 .27 .5 .12 .35 .38 .17 .47 .08 .39 -.09 .4 -.17 .47 -.35 .38Z\" fill=\"#160d26\"/>\n</svg>\n          <div><strong>Pumpkin</strong><div class=\"ds-gear-label\">Costume</div></div>\n        </div>",
+      "css": ".ds-gear { box-sizing: border-box; background: #100920ed; border: 1px solid #4b355cb8; padding: 8px; min-width: 0; color: var(--light, #fff4e6); font: 600 .75rem/1rem \"Avenir Next\", system-ui, sans-serif; font-variant-numeric: tabular-nums; display: flex; align-items: center; gap: 4px; width: fit-content; }\n.ds-gear-label { color: var(--muted, #bba9cb); }\n.ds-gear strong { font-weight: 600; }\n@media (max-width: 640px) { .ds-gear { padding: 2px 4px; } }\n\n.ds-gear-icon { width: 24px; height: 24px; flex: none; }\n.ds-gear strong { color: var(--costume, var(--orange, #ff7a18)); }"
+    },
+    {
+      "name": "Upgrade Card",
+      "kind": "card",
+      "refersTo": "upgrade-card",
+      "description": "Shows a numbered choice, effect, and current stacks.",
+      "html": "<button type=\"button\" class=\"ds-upgrade-card\" aria-keyshortcuts=\"1\">\n  <span class=\"ds-upgrade-top\"><svg class=\"ds-upgrade-icon\" viewBox=\"0 0 40 40\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"22,3 9,23 18,23 17,37 32,16 22,16\" fill=\"#4a2d42\" stroke=\"#ffcf83\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/></svg><kbd class=\"ds-upgrade-key\" aria-hidden=\"true\">1</kbd></span>\n  <strong class=\"ds-upgrade-name\">Heavy rounds</strong>\n  <span class=\"ds-upgrade-effect\">+25% damage</span>\n  <span class=\"ds-upgrade-stacks\">Stacks 0</span>\n</button>",
+      "css": ".ds-upgrade-card { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; min-width: 0; padding: 12px; text-align: left; overflow-wrap: anywhere; cursor: pointer; border: 1px solid #826234; border-radius: 0; background: #22132d; color: var(--light, #fff4e6); font: 400 1rem/normal \"Avenir Next\", system-ui, sans-serif; transition: background-color 240ms var(--ease, cubic-bezier(.22, 1, .36, 1)), transform 280ms var(--ease, cubic-bezier(.22, 1, .36, 1)), border-color 240ms var(--ease, cubic-bezier(.22, 1, .36, 1)); }\n.ds-upgrade-top { display: flex; width: 100%; align-items: flex-start; justify-content: space-between; gap: 4px; }\n.ds-upgrade-icon { flex: none; width: 40px; height: 40px; }\n.ds-upgrade-key { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; border: 1px solid var(--edge, #4b355c); min-width: 20px; padding: 2px 4px; font: inherit; color: inherit; font-variant-numeric: tabular-nums; }\n.ds-upgrade-key { color: var(--gold, #ffcf83); }\n.ds-upgrade-name { font-size: 1rem; line-height: 1.25rem; font-weight: 600; }\n.ds-upgrade-effect { font-size: .875rem; line-height: 1.25rem; }\n.ds-upgrade-stacks { color: var(--muted, #bba9cb); margin-top: auto; font-size: .75rem; line-height: 1rem; font-weight: 600; }\n.ds-upgrade-card:hover:not(:disabled), .ds-upgrade-card:focus-visible { background: #352144; border-color: var(--gold, #ffcf83); }\n.ds-upgrade-card:focus-visible { outline: 2px solid var(--cyan, #00f0ff); outline-offset: 3px; }\n.ds-upgrade-card:active:not(:disabled) { transform: translateY(1px); }\n.ds-upgrade-card:disabled { border-color: var(--edge, #4b355c); opacity: .66; cursor: default; }\n@media (max-width: 640px) { .ds-upgrade-card { padding: 8px; } .ds-upgrade-name { font-size: .875rem; } .ds-upgrade-icon { width: 24px; height: 24px; } }\n@media (prefers-reduced-motion: reduce) { .ds-upgrade-card { transition: none; } }"
+    },
+    {
+      "name": "Level Up Overlay",
+      "kind": "custom",
+      "refersTo": "upgrade-overlay",
+      "description": "Freezes the fight under a veil while the player chooses one of three upgrades.",
+      "html": "<section class=\"ds-level-screen\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"ds-level-heading\">\n          <div class=\"ds-level-content\">\n            <h2 class=\"ds-level-heading\" id=\"ds-level-heading\">Level 2 upgrade</h2>\n            <p class=\"ds-level-note\">Choose one upgrade. Press 1, 2 or 3.</p>\n            <div class=\"ds-level-choices\"><button type=\"button\" class=\"ds-level-card\" aria-keyshortcuts=\"1\">\n  <span class=\"ds-level-top\"><svg class=\"ds-level-icon\" viewBox=\"0 0 40 40\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"22,3 9,23 18,23 17,37 32,16 22,16\" fill=\"#4a2d42\" stroke=\"#ffcf83\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/></svg><kbd class=\"ds-level-key\" aria-hidden=\"true\">1</kbd></span>\n  <strong class=\"ds-level-name\">Heavy rounds</strong>\n  <span class=\"ds-level-effect\">+25% damage</span>\n  <span class=\"ds-level-stacks\">Stacks 0</span>\n</button>\n<button type=\"button\" class=\"ds-level-card\" aria-keyshortcuts=\"2\">\n  <span class=\"ds-level-top\"><svg class=\"ds-level-icon\" viewBox=\"0 0 40 40\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"7,12 17,12 26,20 17,28 7,28 16,20\" fill=\"#4a2d42\" stroke=\"#ffcf83\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"20,12 26,12 35,20 26,28 20,28 28,20\" fill=\"#ffcf83\"/></svg><kbd class=\"ds-level-key\" aria-hidden=\"true\">2</kbd></span>\n  <strong class=\"ds-level-name\">Quick trigger</strong>\n  <span class=\"ds-level-effect\">+20% fire rate</span>\n  <span class=\"ds-level-stacks\">Stacks 0 / 5</span>\n</button>\n<button type=\"button\" class=\"ds-level-card\" aria-keyshortcuts=\"3\">\n  <span class=\"ds-level-top\"><svg class=\"ds-level-icon\" viewBox=\"0 0 40 40\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"4,27 19,22 22,9 29,8 30,21 36,26 35,33 4,33\" fill=\"#4a2d42\" stroke=\"#ffcf83\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/></svg><kbd class=\"ds-level-key\" aria-hidden=\"true\">3</kbd></span>\n  <strong class=\"ds-level-name\">Light feet</strong>\n  <span class=\"ds-level-effect\">+12% move speed</span>\n  <span class=\"ds-level-stacks\">Stacks 0 / 4</span>\n</button></div>\n          </div>\n        </section>",
+      "css": ".ds-level-screen { box-sizing: border-box; display: grid; place-items: center; min-height: 310px; padding: 24px; text-align: center; color: var(--light, #fff4e6); background: linear-gradient(#0a0018c9, #0a0018c9), linear-gradient(#251434 1px, transparent 1px), linear-gradient(90deg, #251434 1px, #130722 1px); background-size: auto, 32px 32px, 32px 32px; font-family: \"Avenir Next\", system-ui, sans-serif; }\n.ds-level-content { width: min(100%, 640px); }\n.ds-level-heading { margin: 0 0 8px; font-size: 3rem; font-weight: 600; line-height: 1; letter-spacing: -.04em; text-wrap: balance; }\n.ds-level-note { margin: 0; color: var(--muted, #bba9cb); font-size: .875rem; line-height: 1.25rem; text-wrap: pretty; }\n.ds-level-choices { margin: 24px auto 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }\n@media (max-width: 640px) { .ds-level-screen { padding: 12px; } .ds-level-heading { font-size: 2.25rem; line-height: 2.5rem; } .ds-level-choices { margin-top: 12px; gap: 4px; } }\n\n.ds-level-card { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; min-width: 0; padding: 12px; text-align: left; overflow-wrap: anywhere; cursor: pointer; border: 1px solid #826234; border-radius: 0; background: #22132d; color: var(--light, #fff4e6); font: 400 1rem/normal \"Avenir Next\", system-ui, sans-serif; transition: background-color 240ms var(--ease, cubic-bezier(.22, 1, .36, 1)), transform 280ms var(--ease, cubic-bezier(.22, 1, .36, 1)), border-color 240ms var(--ease, cubic-bezier(.22, 1, .36, 1)); }\n.ds-level-top { display: flex; width: 100%; align-items: flex-start; justify-content: space-between; gap: 4px; }\n.ds-level-icon { flex: none; width: 40px; height: 40px; }\n.ds-level-key { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; border: 1px solid var(--edge, #4b355c); min-width: 20px; padding: 2px 4px; font: inherit; color: inherit; font-variant-numeric: tabular-nums; }\n.ds-level-key { color: var(--gold, #ffcf83); }\n.ds-level-name { font-size: 1rem; line-height: 1.25rem; font-weight: 600; }\n.ds-level-effect { font-size: .875rem; line-height: 1.25rem; }\n.ds-level-stacks { color: var(--muted, #bba9cb); margin-top: auto; font-size: .75rem; line-height: 1rem; font-weight: 600; }\n.ds-level-card:hover:not(:disabled), .ds-level-card:focus-visible { background: #352144; border-color: var(--gold, #ffcf83); }\n.ds-level-card:focus-visible { outline: 2px solid var(--cyan, #00f0ff); outline-offset: 3px; }\n.ds-level-card:active:not(:disabled) { transform: translateY(1px); }\n.ds-level-card:disabled { border-color: var(--edge, #4b355c); opacity: .66; cursor: default; }\n@media (max-width: 640px) { .ds-level-card { padding: 8px; } .ds-level-name { font-size: .875rem; } .ds-level-icon { width: 24px; height: 24px; } }\n@media (prefers-reduced-motion: reduce) { .ds-level-card { transition: none; } }"
+    },
+    {
+      "name": "Results Strip",
+      "kind": "custom",
+      "refersTo": "results-strip",
+      "description": "Compares the best score, wave, kills, and survived time in four columns.",
+      "html": "<dl class=\"ds-results\">\n          <div class=\"ds-results-item\"><dt class=\"ds-results-label\">Best</dt><dd class=\"ds-results-value\">120</dd></div>\n          <div class=\"ds-results-item\"><dt class=\"ds-results-label\">Wave</dt><dd class=\"ds-results-value\">1</dd></div>\n          <div class=\"ds-results-item\"><dt class=\"ds-results-label\">Kills</dt><dd class=\"ds-results-value\">0</dd></div>\n          <div class=\"ds-results-item\"><dt class=\"ds-results-label\">Survived</dt><dd class=\"ds-results-value\">0:02</dd></div>\n        </dl>",
+      "css": ".ds-results { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; text-align: center; background: var(--arena, #0a0018); color: var(--light, #fff4e6); border-block: 1px solid var(--edge, #4b355c); font-family: \"Avenir Next\", system-ui, sans-serif; }\n.ds-results-item { padding: 8px 4px; }\n.ds-results-item + .ds-results-item { border-left: 1px solid var(--edge, #4b355c); }\n.ds-results-label { color: var(--muted, #bba9cb); font-size: .75rem; line-height: 1rem; font-weight: 600; }\n.ds-results-value { margin: 0; font-size: 1rem; line-height: 1.5rem; font-weight: 600; font-variant-numeric: tabular-nums; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A carved pumpkin in a dark arcade arena",
+    "overview": "A dim violet grid gives the angular Canvas silhouettes and lit jack-o'-lantern room to stand out. Bone-white type and fine rules frame the arena and keep its center open during combat.\n\nCostumes read through silhouette, color, and an ability label. Cards and meters use the same compact type and square edges as the rest of the interface.",
+    "keyCharacteristics": [
+      "Deep violet ground and a faint 32-unit grid",
+      "Faceted Canvas artwork with bright gameplay cues",
+      "Compact square controls and tabular readouts"
+    ],
+    "rules": [],
+    "dos": [
+      "Do keep visible UI copy in English and use text alongside color for key state changes.",
+      "Do keep the interface at the field edges during combat and reserve the centered veil for modal states."
+    ],
+    "donts": [
+      "Don't load external fonts, artwork, or sound. Use the local font stack, original Canvas art, and synthesized audio."
+    ]
+  }
+}
